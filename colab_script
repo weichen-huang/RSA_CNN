@@ -1,0 +1,6 @@
+from google.colab import drive
+drive.mount('/content/drive', force_remount=True)
+basepath = "drive/MyDrive/RSA"
+import os
+os.listdir(basepath)
+
